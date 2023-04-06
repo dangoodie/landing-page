@@ -7,6 +7,10 @@ body {
  margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 
 
 /* Header styling */
@@ -16,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 96px;
+  padding: 18px 128px;
 }
 
 .header-logo {
@@ -35,4 +39,46 @@ body {
 
 .hero-content {
   background-color: #1F2937;
+  display: flex;
+  padding: 80px 128px;
+  gap: 48px;
+}
+
+
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+
+.hero-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 12px;
+}
+
+.hero-image {
+  color: white;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 500px;
+  height: 240px;
+}
+
+.hero-btn {
+  background-color: #3882F6;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+
 }
