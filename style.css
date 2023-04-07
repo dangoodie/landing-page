@@ -12,7 +12,6 @@ p {
 }
 
 
-
 /* Header styling */
 
 .header {
@@ -124,3 +123,29 @@ p {
   color: #1F2937;
 }
 
+/* Quote styling */
+
+.quote-content {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+}
+
+.quote-box {
+  width: 800px;
+}
+
+.quote-box p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.quote-box h3 {
+  text-align: end;
+}
+
+/*  */
